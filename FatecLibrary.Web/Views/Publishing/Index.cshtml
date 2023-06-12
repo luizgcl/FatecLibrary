@@ -9,7 +9,7 @@
             <div>
                 <div class="pull-left">
                     <a asp-action="CreatePublishing" class="btn btn-primary">
-                        <span title="Create New" class="fas fa-plus"></span> New Publishing
+                        <span title="Create New" class="fas fa-plus"></span> Nova Editora
                     </a>
                 </div>
             </div>
@@ -46,10 +46,10 @@
                             @Html.DisplayFor(modelItem => item.Acronym)
                         </td>
                         <td align="center">
-                            <a asp-action="UpdatePublishing" asp-route-id="@item.Id" title="Edit" class="btn btn-warning">
+                            <a asp-action="UpdatePublishing" asp-route-id="@item.Id" title="Editar" class="btn btn-warning">
                                 <span class="fas fa-edit"></span>
                             </a>
-                            <a asp-action="DeletePublishing" asp-route-id="@item.Id" title="Delete" class="btn btn-danger">
+                            <a asp-action="DeletePublishing" asp-route-id="@item.Id" title="Deletar" class="btn btn-danger">
                                 <span class="fas fa-trash-alt"></span>
                             </a>
                         </td>
